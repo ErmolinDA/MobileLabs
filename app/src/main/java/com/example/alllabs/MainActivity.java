@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivityLab5TaskList.class);
         startActivity(intent);
     }
+    public void OnClickOpenDialogCounter(View view) {
+        Intent intent = new Intent(this, MainActivityLab5DialogCounter.class);
+        startActivity(intent);
+    }
     public void OnClickRoul(View view) {
         Intent intent = new Intent(this, MainActivityRoul.class);
         startActivity(intent);

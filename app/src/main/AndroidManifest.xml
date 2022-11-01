@@ -13,6 +13,20 @@
         android:theme="@style/Theme.AllLabs"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityLab6List"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivityLab5DialogCounter"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivityRoul"
             android:exported="false">
             <meta-data

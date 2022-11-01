@@ -84,9 +84,19 @@
         android:id="@+id/button6"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
         android:onClick="OnClickRoul"
         android:text="рулектка"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="OnClickOpenDialogCounter"
+        android:text="Lab 5 Счетчик диалог"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
