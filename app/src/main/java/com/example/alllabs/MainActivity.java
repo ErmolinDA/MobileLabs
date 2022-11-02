@@ -52,6 +52,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivityLab6List.class);
         startActivity(intent);
     }
+    public void OnClickLab6Сurrency(View view) {
+        Intent intent = new Intent(this, MainActivityLab6Currency.class);
+        startActivity(intent);
+    }
+    public void OnClickLab7(View view) {
+        Intent intent = new Intent(this, MainActivityLab7.class);
+        startActivity(intent);
+    }
     public void OnClickRoul(View view) {
         Intent intent = new Intent(this, MainActivityRoul.class);
         startActivity(intent);
