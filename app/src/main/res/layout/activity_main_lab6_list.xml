@@ -6,4 +6,96 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityLab6List">
 
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:autoText="false"
+                    android:background="@color/purple_700"
+                    android:text="синий"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24dp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:background="#CC1B1B"
+                    android:text="красный"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:background="#239818"
+                    android:text="зеленый"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    app:autoSizeTextType="uniform" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Задачи"
+                android:textAlignment="center"
+                android:textSize="24dp" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+            </ListView>
+
+            <EditText
+                android:id="@+id/taskText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="OnClickAddTask"
+                android:text="Добавить" />
+
+            <Button
+                android:id="@+id/lab5_back"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:onClick="onClickLab5back"
+                android:text="назад" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
